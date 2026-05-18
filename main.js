@@ -2,10 +2,10 @@ const blocksColor = {
   world: "#CD40FF",voxels: "#30BF82",control: "#40BCFF",entity: "#FF4281",vector: "#42FF42",
   player: "#FF737D", event: "#0074FF", str: "160", rgb: "#40FF80"
 }
-Blockly.Msg['RGB_HUE'] = "#40FF80";
-Blockly.HSV_SATURATION=1;
-Blockly.HSV_VALUE=0.95;
-Blockly.defineBlocksWithJsonArray([
+Blocky.Msg['RGB_HUE'] = "#40FF80";
+Blocky.HSV_SATURATION=1;
+Blocky.HSV_VALUE=0.95;
+Blocky.defineBlocksWithJsonArray([
   {
     "type":"setVoxel",
     "message0":"放置方块 %1 于 x: %2 y: %3 z: %4 旋转码：%5",
